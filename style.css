@@ -86,7 +86,7 @@ body{
 }
 .main{
     position: relative;
-    padding: 80px 0;
+    padding-top:80px;
 }
 .main-img{
     position: absolute;
@@ -107,14 +107,14 @@ body{
 .block-text{
     color:#FFFFFF;
     line-height: 42.5px;
-    font-size: 33px;margin: 0;
+    font-size: 33px;
+    margin: 0;
 }
 .buttons{
     color:#FFFFFF;
     line-height: 21.3px;
     font-size: 16px;
     margin: 0;
-    
 }
 .main-buttons{
     display:flex;
@@ -145,7 +145,178 @@ body{
 }
 .square{
     height: 6px;
-    width: 6px;
+    width: 6px;    
     background-color:#FFFFFF;
+}
+.main-shop{
+    margin: 0 auto;
+    width: 1280px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
     
+    
+}
+.main-shop-block{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap:27px;
+}
+.shop-one-text{
+    padding-bottom: 5px;
+}
+.one-text{
+    
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 16px;
+    font-size: 12px;
+    color:#F14814;
+}
+.two-text{
+    line-height: 37.3px;
+    font-size: 27px;
+    color:#3F3B3D;
+    margin:0;
+    text-align: center;
+}
+.shop-two-text{
+    height: 112px;
+    width: 700px;
+    letter-spacing: 0.56px;
+}
+.text-shop{
+    line-height: 25px;
+    font-size: 21px;
+    color:#3F3B3D;
+    margin:0;
+    margin-top:10px;
+}
+.text-shop-block{
+    line-height: 16px;
+    font-size: 12px;
+    color:#3F3B3D;
+    margin-top: 10px;
+    text-align: center;
+}
+.shop-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    gap:70px;
+    padding-right: 10px;
+    padding-top: 25px;
+}
+.lower-min{
+    padding-right: 5px;
+}
+.main-picture-block{
+    width: 1280px;
+    margin: auto;
+    margin-top: 63.5px;
+    display: flex;
+    gap: 7px;
+    flex-direction: column;
+}
+.one-picture-block{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.one-picture{
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+}
+.one-egg-block{
+    width: 397px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap: nowrap;
+}
+.two-egg-block{
+    display:flex;
+    flex-wrap: nowrap;
+    gap: 4.5px;
+}
+.style-picture{
+    line-height: 16px;
+    font-size: 12px;
+}
+.two-picture{
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+}
+.one-boom-block{
+    width: 397px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap: nowrap;
+}
+.three-picture{
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+}
+.one-pineapple-block{
+    width: 397px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap: nowrap;
+}
+.two-picture-block{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.shop-all{
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+}
+.text-shop-all{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.one-text-shop-all{
+    font-size: 40px;
+    line-height: 44px;
+    color:#FFFFFF;
+    margin-bottom: 12px;
+    letter-spacing: 0.44px;
+}
+.two-text-shop-all{
+    font-size: 14px;
+    line-height: 18.7px;
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 22px;
+}
+.browse{
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+}
+.text-browse{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
